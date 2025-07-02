@@ -1,22 +1,96 @@
 
 body {
-  font-family: sans-serif;
-  text-align: center;
-  background: #f4f4f4;
-  padding: 2em;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #343F35, #B3A684, #D2CCAD);
+  color: #343F35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
+
 header {
-  background: white;
-  padding: 2em;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  max-width: 900px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  margin-top: 2rem;
 }
-.button {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 1em 2em;
-  background: #0077cc;
+
+.logo-space {
+  height: 80px;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed #B3A684;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25D366;
   color: white;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.advogados {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.adv-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.circle-photo {
+  width: 100px;
+  height: 100px;
+  background-color: #D2CCAD;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #343F35;
+}
+
+footer {
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  color: #343F35;
 }
