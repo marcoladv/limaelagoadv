@@ -2,95 +2,100 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(135deg, #343F35, #B3A684, #D2CCAD);
+  background-color: #F5F3EF;
   color: #343F35;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
+  line-height: 1.6;
 }
 
-header {
+.topo {
   text-align: center;
-  padding: 4rem 1rem 2rem;
-  max-width: 900px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
-  margin-top: 2rem;
+  padding: 1rem;
 }
 
-.logo-space {
-  height: 80px;
+.logo {
+  height: 60px;
+}
+
+.intro {
+  background-color: #D2CCAD;
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro .tag {
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 1rem;
-  border-bottom: 1px dashed #B3A684;
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.subheading {
-  font-size: 1.1rem;
-  font-weight: 400;
+.intro .descricao {
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
-.whatsapp-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+.botao-whatsapp {
   background-color: #25D366;
   color: white;
-  padding: 1rem 1.5rem;
-  font-weight: 600;
   text-decoration: none;
+  padding: 0.75rem 1.5rem;
   border-radius: 30px;
-  transition: background 0.3s;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.whatsapp-button:hover {
-  background-color: #1ebe5d;
+.botao-whatsapp .icon {
+  width: 20px;
+  height: 20px;
 }
 
-.whatsapp-icon {
-  width: 24px;
-  height: 24px;
+.imagem-lateral {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.imagem-lateral img {
+  max-width: 250px;
+  height: auto;
+}
+
+.sobre {
+  background-color: #FFFFFF;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.sobre h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .advogados {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 3rem auto;
-  padding: 2rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
 }
 
-.adv-card {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 1.5rem;
-  border-radius: 10px;
-  max-width: 200px;
-}
-
-.circle-photo {
+.foto-circular {
   width: 100px;
   height: 100px;
-  background-color: #D2CCAD;
+  background-color: #B3A684;
   border-radius: 50%;
-  margin: 0 auto 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
-  color: #343F35;
+  color: white;
 }
 
 footer {
-  margin: 2rem 0;
-  font-size: 0.9rem;
-  color: #343F35;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
 }
